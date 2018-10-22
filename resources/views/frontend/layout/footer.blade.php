@@ -38,6 +38,12 @@
                                 <img class="img-fluid" src="{{asset('assets/tg_circle.png')}}" alt=""  class="img-fluid">
                             </a>
                         </div>
+
+                        <div class="col-2">
+                           <a href="#" class="chatbutton">
+                                <img src="{{asset('assets/tg_circle.png')}}" alt=""  class="img-fluid">
+                            </a>
+                       </div>
                     </div>
                     
                 </div>
@@ -50,3 +56,22 @@
         </div>
 
     </div>
+
+
+@push('scripts')
+
+<script type="text/javascript" language="javascript">
+    $(document).on('click', '.chatbutton', function () {
+    var id = $(this).val();
+    $('#mchat').modal('show');
+    
+});
+
+    $(document).on('click', '.enviar', function () {
+    var id = $(this).val();
+    alert("prueba");
+    
+});
+
+</script>
+@endpush

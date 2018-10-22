@@ -67,7 +67,14 @@ return[
   'menuItem1' => 'Tu Phonealo',
   'menuItem2' => 'Tu Amigo',
   'menuItem3' => '¿Qué es Phonealo?',
+///
+    'chattitulo' =>'Chat en línea',
+  'chatSuccess' => 'Gracias por Contactarnos',
+  'chatError' => 'Error al enviar.',
+  'chatlblmensaje' => 'Escribe un mensaje',
+  'chatbutton' => 'Enviar',
 
+  ///
   'tarifasTitulo' => 'Conoce las tarifas de Phonealo',
   'tarifasPlaceholder' =>'¿A qué país quieres llamar?',
   'textoTarifas1' => 'Llama todo lo que quieras a cualquier teléfono en',
