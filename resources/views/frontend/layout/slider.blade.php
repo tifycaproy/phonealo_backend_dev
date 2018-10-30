@@ -3,7 +3,8 @@
     <div class="carousel-inner">
       {{-- slider1 --}}
         <div class="carousel-item active" >
-          <div class="position-absolute col-12 col-md-8 col-lg-6 p-5  p-1-sm ml-5 c-white background-black top-30 text-center invisible-xs">
+          <div class="position-absolute col-12 p-5 c-white background-black  text-center invisible-xs" style="top: 60%">
+           
               <h2 class="c-white size-13" >{{trans('messages.layout1')}}</h2>
               <h3 class="c-white normal size-1"> {{trans('messages.layout2')}}</h3>
           </div>  
@@ -12,7 +13,7 @@
        
        {{-- s;lider 2 --}}
         <div class="carousel-item">
-            <div class="position-absolute col-12 col-md-8 col-lg-6 p-5 p-1-sm ml-5 c-white background-black top-30 text-center invisible-xs">
+            <div class="position-absolute col-12 p-5 c-white background-black  text-center invisible-xs" style="top: 60%">
               <h2 class="c-white size-13 ">{{trans('messages.layout9')}}</h2>
               <h3 class="c-white normal  size-1">{{trans('messages.layout10')}}</h3>
           </div>
@@ -20,7 +21,7 @@
         </div>
 {{-- slider3 --}}
         <div class="carousel-item">
-            <div class="position-absolute col-12 col-md-8 col-lg-6 p-5 p-1-sm ml-5 c-white background-black top-30 text-center invisible-xs">
+            <div class="position-absolute col-12 p-5 c-white background-black  text-center invisible-xs" style="top: 60%">
                 <h2 class="c-white size-13 ">{{trans('messages.layout3')}}</h2>  
                 <h3 class="c-white normal size-1" >{{ trans('messages.layout4')}}</h3>
             </div>
@@ -28,20 +29,20 @@
         </div>
         {{-- slider4 --}}
         <div class="carousel-item">
-            <div class="position-absolute col-12 col-md-8 col-lg-6 p-5 p-1-sm ml-5 c-white background-black top-30 text-center invisible-xs">
+           <div class="position-absolute col-12 p-5 c-white background-black  text-center invisible-xs" style="top: 60%">
                 <h2 class="c-white size-13 ">{{trans('messages.layout7')}}</h2>  
                 <h3 class="c-white normal size-1" >{{ trans('messages.layout8')}}</h3>
             </div>
           <img class="d-block w-100" src="{{asset('assets/ecuador1.jpg')}}" alt="">
         </div>
         {{-- slider 5 --}}
-        <div class="carousel-item">
+       {{--  <div class="carousel-item">
             <div class="position-absolute col-12 col-md-8 col-lg-6 p-5 p-1-sm ml-5 c-white background-black top-30 text-center invisible-xs">
                 <h2 class="c-white size-13 ">{{trans('messages.layout5')}}</h2>  
                 <h3 class="c-white normal size-1" >{{ trans('messages.layout6')}}</h3>
             </div>
           <img class="d-block w-100" src="{{asset('assets/pamigobg.jpg')}}" alt="">
-        </div>
+        </div> --}}
       
         
     </div>
