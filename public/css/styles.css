@@ -16,6 +16,10 @@ body, html {
 
 }
 
+.barra{
+    top:60%;
+}
+
 .comentarios{
     border-radius: 50%; 
     overflow: hidden; 
@@ -753,7 +757,10 @@ input.input:focus{
     .content{
         height: 40%;
     }
-
+    
+    .barra{
+        top:40%;
+    }
    
 
 }
@@ -767,4 +774,10 @@ input.input:focus{
     }
 
    
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 2000px) {
+    .barra{
+        top:65%;
+    }
 }
