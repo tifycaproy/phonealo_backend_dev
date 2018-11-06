@@ -71,7 +71,7 @@
      <div id="btn-redes" class="col-1  position-fixed d-md-block d-none">
         <div class="row d-flex justify-content-right align-items-center">
             <div class="col pt-1 text-right">
-                <a target="blank_" href="https://www.instagram.com/phonealo_app/" title="Instagram">
+                <a target="blank_" href="https://www.instagram.com/phoneal_app/" title="Instagram">
                     <img src="{{asset('assets/ig_circle.svg')}}" alt="" class="w-25">
                 </a>
             </div>
