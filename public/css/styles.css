@@ -17,7 +17,11 @@ body, html {
 }
 
 .barra{
-    top:60%;
+   bottom: 14%;
+   right: 0;
+   left: 0;
+   padding: 50px 0 100px 0;
+   background: rgba(0,0,0,.7); 
 }
 
 .comentarios{
@@ -582,10 +586,14 @@ input.input:focus{
 .content{
     height: 80%;
 }
-
+.men{
+        width: 100%;
+    }
 
 @media only screen and (max-width: 639px) {
-    
+    .men{
+        width: inherit;
+    }
     .video-youtube{
         width: 100% !important;
         height: auto !important;

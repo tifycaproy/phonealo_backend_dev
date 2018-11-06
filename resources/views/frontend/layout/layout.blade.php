@@ -133,7 +133,7 @@
     {{-- FIN SLIDER --}}
 
     {{-- CONTENEDOR --}}
-    <div class="pt-xs-1 pt-5 bg-white " >
+    <div class="pt-xs-1 pt-5 bg-white">
         @yield('content')
     </div>
     {{-- FIN CONTENEDOR --}}
