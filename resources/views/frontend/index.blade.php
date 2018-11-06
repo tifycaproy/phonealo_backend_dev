@@ -3,7 +3,9 @@
 @section('title', 'Phonealo')
 
 @section('slider')
+
 @include('frontend.layout.slider')
+
 @endsection
 
 @section ('content')

@@ -8,11 +8,11 @@
         <a class="c-white" href="{{url('locale/es')}}">{{trans('messages.link2')}}</a>
     </div>
   </div>
-  <div class="col-7 col-md-3 col-lg-2">
+<div class="row d-flex justify-content-between p-2 men">
+  <div class="col-7 col-md-3 col-lg-2 d-flex align-items-center">
    <a href="https://www.phonealo.com/" title=""> <img src="{{ asset('assets/logo.png') }}" class="img-fluid" alt=""></a>
   </div>
-  <div class="p-3 text-right">
-    
+  <div class="pr-3 text-right ">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,4 +32,7 @@
       </ul>
     </div>
   </div>
+</div>
+  
+
 </nav>
