@@ -14,7 +14,7 @@
                 <div class="col-12 mt-3-xs col-md-5 col-md-offset-1 col-sm-6">
                     <div class="row d-flex justify-content-center justify-content-sm-end ">
                         <div class="col-2">
-                            <a target="blank_" href="https://www.instagram.com/phoneal_app/" title="Instagram">
+                            <a target="blank_" href="https://www.instagram.com/phonealo_app/" title="Instagram">
                                 <img class="img-fluid" src="{{ asset('assets/ig_circle.svg') }}" alt="">
                             </a>
                         </div>
