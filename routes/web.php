@@ -57,3 +57,6 @@ Route::get('verifica_usuario', 'pamigosController@verifica')->name('verifica_usu
 Route::get('trae_paises', 'tarifasController@paises')->name('trae_paises');
 
 Route::get('trae_tarifa', 'tarifasController@tarifa')->name('trae_tarifa');
+
+//backend
+Route::get('administrar', 'administrar\AdministrarController@index')->name('administrar');
