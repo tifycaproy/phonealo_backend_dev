@@ -57,3 +57,9 @@ Route::get('verifica_usuario', 'pamigosController@verifica')->name('verifica_usu
 Route::get('trae_paises', 'tarifasController@paises')->name('trae_paises');
 
 Route::get('trae_tarifa', 'tarifasController@tarifa')->name('trae_tarifa');
+
+//Telegram
+Route::get('/activity', 'TelegramBotController@getUpdates');
+
+Route::post('enviar', 'TelegramBotController@enviarmensaje')->name("enviar");
+Route::post('enviar_chat', 'BotmanController@enviar')->name("enviar_chat");

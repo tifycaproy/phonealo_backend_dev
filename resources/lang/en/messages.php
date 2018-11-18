@@ -21,7 +21,14 @@ return[
   'layout10' => 'Take Phonealo everywhere.',
   ////
   'tit_form' => 'Leave us your email and stay connected.',
-  
+  ///chat
+
+  'chattitulo' =>'Chat On Line',
+  'chatSuccess' => 'Thanks you for Contacting us',
+  'chatError' => 'Error sending',
+  'chatlblmensaje' => 'Write a message',
+  'chatbutton' => 'Send',
+
   'indice1' => 'Connect with your loved ones',
   'indice2' => 'Our commitment is always to get the best quality at the best price.',
   'indice3' => '¿What is Phonealo?',
